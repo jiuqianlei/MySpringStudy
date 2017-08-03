@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+    <bean id="defaultCar01" class="fly.spring.bean.scope.Car"></bean>
+
+    <bean id="singleCar02" class="fly.spring.bean.scope.Car" scope="singleton"></bean>
+
+    <bean id="prototypeCar02" class="fly.spring.bean.scope.Car" scope="prototype"></bean>
+
+
+</beans>

@@ -1,4 +1,4 @@
-package fly.spring.normalinject;
+package fly.spring.bean.normalinject;
 
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

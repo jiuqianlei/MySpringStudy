@@ -4,10 +4,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd" >
 
-    <bean id="server2" class="fly.spring.normalinject.DemoService02">
+    <bean id="server2" class="fly.spring.bean.normalinject.DemoService02">
         <constructor-arg name="dao" ref="demoDao"></constructor-arg>
     </bean>
 
-    <bean id="demoDao" class="fly.spring.normalinject.DemoDao" ></bean>
+    <bean id="demoDao" class="fly.spring.bean.normalinject.DemoDao" ></bean>
 
 </beans>

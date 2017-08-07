@@ -1,4 +1,4 @@
-package fly.spring.annotation;
+package fly.spring.annotation.component;
 
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

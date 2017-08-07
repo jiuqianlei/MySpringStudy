@@ -1,4 +1,4 @@
-package fly.spring.annotation;
+package fly.spring.annotation.component;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
